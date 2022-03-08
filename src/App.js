@@ -20,7 +20,7 @@ export default class App extends React.Component {
   render() {
 
     var StyleIn = {
-      width: "85vh",
+      //width: "50vh",
       height: "50vh",
       padding: "10px",
       marginLeft: "auto",
