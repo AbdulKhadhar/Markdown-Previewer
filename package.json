@@ -1,6 +1,10 @@
 {
   "name": "markdown-previewer",
   "version": "0.1.0",
+<<<<<<< HEAD
+=======
+  "homepage": ".",
+>>>>>>> b86c513a48a797143c0a4133e8e9c139231bcd3d
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -18,7 +22,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
     "eject": "react-scripts eject"
+=======
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build"
+>>>>>>> b86c513a48a797143c0a4133e8e9c139231bcd3d
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +47,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+>>>>>>> b86c513a48a797143c0a4133e8e9c139231bcd3d
   }
 }

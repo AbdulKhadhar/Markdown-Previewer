@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 import { marked } from 'marked'
 //let marked = require("marked");
 
@@ -19,6 +21,7 @@ export default class App extends React.Component {
 
     var StyleIn = {
       width: "85vh",
+
       height: "50vh",
       padding: "10px",
       marginLeft: "auto",
@@ -42,13 +45,14 @@ export default class App extends React.Component {
 
     var BgStyle = {
       backgroundImage: "linear-gradient(to bottom right,#757575,#00000)",
-      
+
     };
 
     var SubHeading = {
       backgroundImage: "linear-gradient(to bottom right,lightgreen,silver)",
       padding : "10px"
     };
+
 
     var Heading = {
       fontFamily:" 'Smooch Sans', sans-serif",
@@ -65,6 +69,7 @@ export default class App extends React.Component {
      alignItems: "center"
 
     }
+
     
 document.body.style="background:#212121";
     return (
@@ -76,6 +81,7 @@ document.body.style="background:#212121";
               <h1><div className='text-align-center' id="Heading" style={Heading}>
                 Markdown Previewer
               </div></h1>
+
 
               <div className='row mt-4'>
                 <div className='col md-6'>
@@ -97,9 +103,14 @@ document.body.style="background:#212121";
             </div>
           </div>
         </div>
+
         <div className='text-align-center' style={footer}><p color='#ffffff'>Developed by <a href='https://github.com/AbdulKhadhar/'>Abu</a></p></div>
+
 
       </div>
     );
   }
+
 }
+
+
